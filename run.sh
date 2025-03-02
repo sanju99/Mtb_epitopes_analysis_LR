@@ -1,0 +1,3 @@
+snakemake --snakefile snakefile --use-conda --conda-frontend conda --rerun-incomplete --keep-going --configfile config.yaml --conda-prefix /Users/skulkarni/Desktop/Research/LR_data/.snakemake/conda --cores 8 --unlock
+
+snakemake --snakefile snakefile --use-conda --conda-frontend conda --rerun-incomplete --keep-going --configfile config.yaml --conda-prefix /Users/skulkarni/Desktop/Research/LR_data/.snakemake/conda --cores 8

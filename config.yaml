@@ -1,0 +1,14 @@
+output_dir: "/Users/skulkarni/Desktop/Research/LR_data/FASTQ"
+isolates_to_run: "pacbio_samples.tsv"
+kraken_db: "./kraken_db/custom_human_MTBC"
+kraken_unclassified_max: 15
+long_read_source: 'hifi' # hifi or ont
+scripts_dir: "./scripts"
+references_dir: "./references"
+min_read_length: 1000
+min_mean_quality: 10
+median_depth: 15
+min_cov: 20
+genome_cov_prop: 0.95
+annot_VCF_name: "./VCFs_to_annot.txt"
+snpEff_db: "Mycobacterium_tuberculosis_h37rv"
